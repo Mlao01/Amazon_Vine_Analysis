@@ -21,7 +21,7 @@ The dataset had over 3 million reviews recorded. In order to focus on reviews th
 * Count of Total Votes equal or greater than 20. 
 * Percent of Helpful Votes to Total Votes equal or greater than 50%. 
 
-![DataGreater](https://github.com/amylio/Amazon_Vine_Analysis/blob/main/Images/DataGreater20_50.png)
+![DataGreater](Resources/DataGreater20_50.png)
 
 The results reduced the total number of reviews from 3M to 50.7K. This allowed us to answer the following questions:
 
@@ -29,11 +29,11 @@ The results reduced the total number of reviews from 3M to 50.7K. This allowed u
 
 * **Vine** members made up only 2.1% (1,080) of the reviews whereas the remaining 97.9% were **Non-Vine** members (49,659).
 
-![VineNonVineTotal](https://github.com/amylio/Amazon_Vine_Analysis/blob/main/Images/VineNonVineTotal.png)
+![VineNonVineTotal](Resources/VineNonVineTotal.png)
 
-![vine](https://github.com/amylio/Amazon_Vine_Analysis/blob/main/Images/Vine.png)
+![vine](Resources/Vine.png)
 
-![nonVine](https://github.com/amylio/Amazon_Vine_Analysis/blob/main/Images/NonVine.png)
+![nonVine](Resources/NonVine.png)
 
 **2. How many Vine reviews were 5 stars? How many non-Vine reviews were 5 stars?**
 
@@ -49,6 +49,6 @@ The results reduced the total number of reviews from 3M to 50.7K. This allowed u
 
 Based on the results, **Vine** members did not show bias when rating their products considering that the number of 5-star ratings was about 10% less than **Non-Vine** members (42% vs. 46.4%). With this, we can assume that Vine customers are more critical when submitting their review. However, in order to support this assumption further, we should include all of the data rather than filtering it to a percentage of helpful vs. total votes as we did for this analysis. Reviewing the data as is would give us more information and allow us to further support our assumption as shown below. 
 
-![nonfilteredtotal](https://github.com/amylio/Amazon_Vine_Analysis/blob/main/Images/nonfilteredtotal.png)
+![nonfilteredtotal](Resources/nonfilteredtotal.png)
 
 In addition, running the same analysis using datasets from different product categories can provide us with the whole picture of whether reviews made by **Vine** members are bias.
